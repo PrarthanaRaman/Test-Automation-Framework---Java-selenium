@@ -22,7 +22,7 @@ import org.openqa.selenium.firefox.GeckoDriverInfo;
 
 import com.constants.Browser;
 
-public abstract class BrowserUtility {
+public class BrowserUtility {
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 	Logger logger = LoggerUtility.getLogger(this.getClass());
 
